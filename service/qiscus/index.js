@@ -29,8 +29,8 @@ const distinct = stream =>{
 }
 
 export const qiscus = new Qiscus()
-//const appId = 'sampleapp-itnriby9zae'
-const appId = 'sdksample'
+const appId = 'sampleapp-itnriby9zae'
+//const appId = 'sdksample'
 const event = mitt()
 
 export const event$ = xs.create({
