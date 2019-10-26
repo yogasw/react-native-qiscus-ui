@@ -2,9 +2,9 @@ import React from 'react';
 import {View} from 'react-native';
 import color from '../lib/color';
 
-class LineItem extends React.PureComponent {
+export class LineItem extends React.PureComponent {
   render() {
-    return <View style={{width: '100%', height: 0.1, backgroundColor: `${color.gray}`}}/>;
+    return <View style={{height: 0.3, backgroundColor: `${color.gray}`, marginLeft:10}}/>
   }
 }
-export default LineItem
+

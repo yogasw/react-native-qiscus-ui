@@ -2,7 +2,7 @@ import {Image, Text, View} from 'react-native';
 import React, {PureComponent} from 'react';
 import color from './../lib/color';
 import font from './../lib/font';
-import LineItem from './LineItem';
+import {LineItem} from './LineItem';
 import moment from "moment";
 
 export class RoomListItem extends PureComponent {
@@ -32,6 +32,7 @@ export class RoomListItem extends PureComponent {
                             </View>
                         </View>
                         <LineItem/>
+
                     </View>
                 </View>
             </>
@@ -48,7 +49,10 @@ const style = {
     item: {
         flexDirection: 'row',
         backgroundColor: color.white,
-        padding: 5,
+        paddingLeft: 10,
+        paddingRight: 10,
+        paddingTop: 5,
+        paddingBottom: 5,
         height: 65,
         alignItems: 'center',
     },

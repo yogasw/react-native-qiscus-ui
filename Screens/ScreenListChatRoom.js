@@ -3,7 +3,7 @@ import {View, FlatList, Text} from 'react-native';
 import RoomListItem from '../component/RoomListItem';
 import * as Qiscus from './../service/qiscus';
 import xs from 'xstream';
-
+import color from './../lib/color'
 class ScreenListChatRoom extends React.Component {
     constructor(props, context) {
         super(props, context);
@@ -56,6 +56,6 @@ export default ScreenListChatRoom;
 const style = {
     root: {
         flex: 1,
-        padding: 10,
+        backgroundColor:color.white
     },
 };
